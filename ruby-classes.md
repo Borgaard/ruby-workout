@@ -1,11 +1,12 @@
 # Ruby Class Lab
-These problems will use your knowledge of classes. 
 
-* Create a class called `SuperHero` that takes a `first_name` and `last_name`. Give each superHero a `super_punch` method that returns `"WHAM!"`.
-* Create a class called `Robot` that takes `name` and `purpose`. Give each robot a `greet` method that returns `"beep boop"`
+Create a class named `Person` with the following instance variables: 
+- name
+- age
+- -hometown
 
-* Make a `Starship` class that takes a `model` and `owner_name`. 
-  * Give your `Starship` a `set_top_speed` method and a `get_top_speed` method that let you change and read the `top_speed`. *Assume `top_speed` is just a number.*
-  * Give your `Starship` an `accelerate_to` method that sets `current_speed` to some number, unless that number is greater than its `top_speed`.
-* Make a `Dice` class that takes a `number_of_sides`. Add a method called `get_side` or `roll` that randomly returns a number from `1` up to the `number_of_sides`.
-  * Modify your `get_side` method to record the returned side in a `last_roll` instance variable. 
+Also include the following logic inside of instance methods: 
+
+- Normalize the names of a user's hometown. In other words, make the names consistent. For this lab, make all names of hometowns lowercase, regardless of a user's input. So "PHILADELPHIA", "Philadelphia", and "PHILAdelphia" should be normalized to "philadelphia". 
+
+- Do not create an instance of a person if a name isn't provided as an argument during instance creation of_sides`.
