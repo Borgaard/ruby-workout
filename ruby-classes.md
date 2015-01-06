@@ -3,7 +3,7 @@
 Create a class named `Person` with the following instance variables: 
 - name
 - age
-- -hometown
+- hometown
 
 Also include the following logic inside of instance methods: 
 
