@@ -2,21 +2,21 @@
 These problems will use your knowledge of looping and conditionals, and we will build functions on top of that.
 
 
-##sillySum(arr)
+##silly_sum(arr)
 Write a function that takes an array of numbers, and returns the sum of each number multiplied by its index. 
 
 `count += (number * index)`
 
-##numSquare(max)
-Create a function called `numSquare` that will return an array of all perfect square numbers up to, but not exceeding a max number.
+##num_square(max)
+Create a function called `num_square` that will return an array of all perfect square numbers up to, but not exceeding a max number.
 
-##isPrime(num)
+##is_prime(num)
 Create a function to return `true` or `false` if a number passed in a prime number.
 
 ##primes(max)
-Using your `isPrime()` function, create a function `primes` that will return an array of all prime numbers up to a certain amount.
+Using your `is_prime` function, create a function `primes` that will return an array of all prime numbers up to a certain amount.
 
-##letterCount(word)
+##letter_count(word)
 
 Write a function that takes a string that finds out how many times a character occurs.  For example, the string "apple" would print the following:
 
